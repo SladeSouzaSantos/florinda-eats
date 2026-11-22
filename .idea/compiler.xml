@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="florinda-eats-notas-fiscais" />
+        <module name="florinda-eats-pedidos" />
+        <module name="florinda-eats-signer" />
+        <module name="florinda-eats-pagamentos" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="florinda-eats-notas-fiscais" options="-parameters" />
+      <module name="florinda-eats-pagamentos" options="-parameters" />
+      <module name="florinda-eats-pedidos" options="-parameters" />
+      <module name="florinda-eats-signer" options="-parameters" />
+    </option>
+  </component>
+</project>
